@@ -7,10 +7,11 @@
 # using cloud.google.com/console use the "project id" for your application
 # id.
 application: kh620057009
-version: project4
+version: chatapp
 runtime: python27
 api_version: 1
 threadsafe: yes
+module: default
 
 # Handlers tell app engine how to route requests to your application.
 handlers:
